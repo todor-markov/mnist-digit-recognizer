@@ -1,0 +1,59 @@
+Conv - Pool - Conv - Pool - Dense - Dropout
+
+Filters: 32, 64
+ReLU, no batchnorm
+Adam optimizer, learning rate 0.001
+66 epochs
+
+Cross validation:   0.98767
+Public leaderboard: 0.98571
+
+---------------------------
+
+Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
+
+Filters: 64, 128, 192, 128
+ReLU, no batchnorm
+Adam optimizer, learning rate 0.001
+66 epochs
+
+Cross validation:   0.99108
+Public leaderboard: 0.99128
+
+---------------------------
+
+Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
+
+Filters: 128, 256, 256, 128
+ReLU, no batchnorm
+Adam optimizer, learning rate 0.001
+66 epochs
+
+Cross validation:   0.98792
+
+
+---------------------------
+
+Conv - Pool - Conv - Pool - Dense - Dropout
+
+Filters: 32, 64
+ReLU, no batchnorm
+SGD optimizer, learning rate 0.001
+200 epochs
+
+Cross validation:   0.98933
+Public leaderboard: 0.99042
+
+---------------------------
+
+Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
+
+Filters: 64, 128, 192, 128
+ReLU, no batchnorm
+SGD optimizer, learning rate 0.001
+200 epochs
+
+Cross validation:   0.99083
+Public leaderboard: 0.99328
+
+---------------------------
