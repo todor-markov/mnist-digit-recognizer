@@ -1,6 +1,7 @@
 Conv - Pool - Conv - Pool - Dense - Dropout
 
 Filters: 32, 64
+Kernel size: 5
 ReLU, no batchnorm
 Adam optimizer, learning rate 0.001
 66 epochs
@@ -13,6 +14,7 @@ Public leaderboard: 0.98571
 Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
 
 Filters: 64, 128, 192, 128
+Kernel size: 3
 ReLU, no batchnorm
 Adam optimizer, learning rate 0.001
 66 epochs
@@ -25,6 +27,7 @@ Public leaderboard: 0.99128
 Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
 
 Filters: 128, 256, 256, 128
+Kernel size: 3
 ReLU, no batchnorm
 Adam optimizer, learning rate 0.001
 66 epochs
@@ -37,6 +40,7 @@ Cross validation:   0.98792
 Conv - Pool - Conv - Pool - Dense - Dropout
 
 Filters: 32, 64
+Kernel size: 3
 ReLU, no batchnorm
 SGD optimizer, learning rate 0.001
 200 epochs
@@ -49,6 +53,7 @@ Public leaderboard: 0.99042
 Conv - Conv - Pool - Conv - Conv - Pool - Dense - Dropout
 
 Filters: 64, 128, 192, 128
+Kernel size: 3
 ReLU, no batchnorm
 SGD optimizer, learning rate 0.001
 200 epochs
